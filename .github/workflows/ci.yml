@@ -48,4 +48,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: test-integration
+        working-directory: ./hangman-api
         run: docker compose -f test-integration.yml run test-integration
