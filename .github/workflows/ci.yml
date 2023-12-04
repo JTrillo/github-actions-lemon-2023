@@ -34,7 +34,6 @@ jobs:
   
   finish:
     runs-on: ubuntu-latest
-    if: ${{ always() }}
     needs: tests
     steps:
       - name: Hello
