@@ -14,4 +14,4 @@ jobs:
         with:
           commodity: "silver"
       - name: Get the output price
-        run: echo "Price per ounce is ${{ steps.commodity_price.outputs.price }} "
+        run: echo "Price per ounce is ${{ steps.commodity_price.outputs.price }} USD"
