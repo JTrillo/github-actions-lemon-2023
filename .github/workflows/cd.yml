@@ -76,4 +76,4 @@ jobs:
           context: ./hangman-api
           push: true
           tags: jtrillo/hangman-api-actions:v2
-          file: Dockerfile.workflow
+          file: ./Dockerfile.workflow
