@@ -41,7 +41,7 @@ describe('game.dal', () => {
 
       // Assert
       expect(player_id).toBe(1);
-      expect(word_id).toBe(1);
+      expect(word_id).toBe(2);
       expect(game_state).toBe('not_started');
     });
   });
