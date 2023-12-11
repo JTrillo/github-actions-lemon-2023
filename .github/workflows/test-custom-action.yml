@@ -12,6 +12,6 @@ jobs:
         id: commodity_price
         uses: jtrillo/get-commodity-price-action@v1.0.1
         with:
-          commodity: "silver"
+          commodity: silver
       - name: Get the output price
         run: echo "Price per ounce is ${{ steps.commodity_price.outputs.price }} USD"
